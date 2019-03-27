@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/boder"
+    tools:context=".activity.LienHeActivity">
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:weightSum="4"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_weight="1"
+            android:src="@drawable/user_filled_50px"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:layout_weight="3"
+            android:text="App Buy Flower"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:weightSum="4"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_weight="1"
+            android:src="@drawable/gmail_48px"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:layout_weight="3"
+            android:text="appbuyflower@gmail.com"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:weightSum="4"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_weight="1"
+            android:src="@drawable/phone_48px"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:layout_weight="3"
+            android:text="0374802901"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

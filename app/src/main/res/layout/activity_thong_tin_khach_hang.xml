@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B7E9FA"
+    tools:context="com.example.dienhoa.activity.ThongTinKhachHang">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/boder"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Thông tin khách hàng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:padding="5dp"
+                    android:inputType="text"
+                    android:id="@+id/fullNameKH"
+                    android:layout_margin="10dp"
+                    android:hint="Họ và tên khách hàng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <EditText
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/emailKH"
+                    android:hint="Email khách hàng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <EditText
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:inputType="phone"
+                    android:id="@+id/phoneKH"
+                    android:hint="Số điện thoại khách hàng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <EditText
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:inputType="text"
+                    android:id="@+id/addressKH"
+                    android:hint="Địa chỉ giao hàng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginRight="20dp"
+                android:id="@+id/buttonOk"
+                android:text="Xác nhận"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_marginLeft="20dp"
+                android:id="@+id/buttonHuy"
+                android:layout_width="100dp"
+                android:text="Trở về"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

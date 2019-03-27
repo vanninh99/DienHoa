@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ChiTietSP">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toobarChitietSP"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#F3F3C9"
+        app:title="Chi tiết hoa"
+        app:titleTextColor="#16013D">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewChitietSP"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="25dp"
+            android:padding="5dp"
+            android:src="@mipmap/icon_buyflower" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tenChitietSP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Tên chi tiết sản phẩm"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/giaChitietSP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="10000"
+                android:textAlignment="center"
+                android:textColor="#AC1802"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerChitietSP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/spinner"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                >
+
+            </Spinner>
+
+            <Button
+                android:id="@+id/buttonBuyFlower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Thêm vào giỏ hàng"
+                android:textColor="#021366"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C5CCF7"
+            android:padding="5dp"
+            android:text="Chính sách khi đặt hàng:"
+            android:textColor="#0A0A0A"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/motachitietsanpham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="- Điện hoa  cam kết sản phẩm được thực hiện dựa trên mẫu đã chọn.
+- Sản phẩm được chuyển phát miễn phí trong khu vực nội thành ( hoặc bán kính 10km ). Các khu vực khác vui lòng liên hệ để biết phí Ship.
+- Thời gian giao hàng nhanh nhất có thể từ 2h kể từ khi khách hàng đặt hàng (đối với các đơn hàng gấp, tuỳ thuộc vào yêu cầu và địa chỉ được giao).
+- Kèm theo thiệp chúc mừng, băng zôn ( nếu có nội dung chúc mừng, chia buồn )
+- Miễn phí hóa đơn đỏ nếu quý khách có nhu cầu.
+-Dễ dàng thanh toán online với thẻ nội địa, quốc tế, Visa, Master, Paypal..."
+                android:textSize="18sp" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

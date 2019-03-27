@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dienhoa.activity.SanPhamActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBarSP"
+        app:titleTextColor="#fff"
+        android:background="#313131"
+        app:title="Sản phẩm"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+
+    </android.support.v7.widget.Toolbar>
+    <ListView
+        android:id="@+id/listViewSP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+
+</LinearLayout>
